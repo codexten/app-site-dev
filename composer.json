@@ -1,0 +1,21 @@
+{
+  "name": "codexten/app-site-dev",
+  "description": "file generator for site app",
+  "type": "library",
+  "require": {
+    "codexten/yii-web": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\site\\dev\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "hidev": "src/hidev.php"
+    }
+  }
+}
