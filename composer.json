@@ -14,7 +14,7 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
+    "config-plugin": {
       "hidev": "src/hidev.php"
     }
   }

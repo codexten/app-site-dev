@@ -1,0 +1,17 @@
+deploy:
+  before:
+  - site-app
+
+siteApp:
+  path: .
+  runtime:
+    site:
+      chmod:  '0777'
+  public:
+    site:
+      assets:
+        chmod: '0777'
+      index.php:
+        template: site-app/index.twig
+      robots.txt:
+        template: site-app/robots.twig
