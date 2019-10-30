@@ -22,6 +22,7 @@ return [
         ],
         'vcsignore' => [
             '/public/site/assets/*' => 'site directories',
+            '/public/site/minify/*' => 'site directories',
             'runtime/site/*' => 'site directories',
             'runtime/frontend/*' => 'site directories',
         ],
